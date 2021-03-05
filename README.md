@@ -1,3 +1,7 @@
+## Warning
+
+Each script includes a hashtagged line of code that has the full path for the .txt file, path that of course, only makes sense in my PC; the .txt file is too heavy for the repository, which is why I have the two possible file opening methods.
+
 ## Introduction
 
 This assignment uses data from
