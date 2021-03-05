@@ -1,6 +1,8 @@
 ## Warning
 
-Each script includes a hashtagged line of code that has the full path for the .txt file, path that of course, only makes sense in my PC; the .txt file is too heavy for the repository, which is why I have the two possible file opening methods.
+Each script includes a hashtagged line of code that has the full path for the .txt file, path that of course, only makes sense in my PC.
+
+However, after realizing I could download and delete the files withthe code itself, I decided to keep the hashtaged file opening line, dependant on the directory, and ADD THE LINES TO DOWNLOAD, READ, AND THEN DELETE THE HOUSEHOLD POWER CONSUMPTION FILE
 
 ## Introduction
 

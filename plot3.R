@@ -3,7 +3,11 @@ rm(list = ls(all.names = TRUE))
 
 # Dataset object creation
 ##Power_Consumption_dataset <- read.table("D:/Dropbox/Currículum Vitae/Data Scientist/Graphics/household_power_consumption.txt", header = TRUE, sep = ";")
+download.file(url = 'https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip', destfile = 'household_power_consumption.zip', method = 'curl')
+unzip(zipfile = "household_power_consumption.zip", exdir = getwd())
 Power_Consumption_dataset <- read.table("household_power_consumption.txt", header = TRUE, sep = ";")
+file.remove("household_power_consumption.txt")
+file.remove("household_power_consumption.zip")
 
 # picking subset
 relevant_timeframe <- subset(Power_Consumption_dataset, Power_Consumption_dataset$Date == "1/2/2007" | Power_Consumption_dataset$Date == "2/2/2007")
